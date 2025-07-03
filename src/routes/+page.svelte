@@ -1,3 +1,7 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-5xl font-bold text-center mb-8">John Doe</h1>
   <p class="text-lg text-center mb-12 max-w-2xl mx-auto">
@@ -20,9 +24,9 @@
     <div class="text-center">
       <h2 class="text-3xl font-semibold mb-4">Connect</h2>
       <div class="flex justify-center space-x-4">
-        <a href="#" class="text-blue-600 hover:underline">LinkedIn</a>
-        <a href="#" class="text-gray-800 hover:underline">GitHub</a>
-        <a href="#" class="text-red-600 hover:underline">Twitter</a>
+        <a href="{base}/linkedin" class="text-blue-600 hover:underline">LinkedIn</a>
+        <a href="{base}/github" class="text-gray-800 hover:underline">GitHub</a>
+        <a href="{base}/twitter" class="text-red-600 hover:underline">Twitter</a>
       </div>
     </div>
   </section>

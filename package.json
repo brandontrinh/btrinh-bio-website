@@ -1,12 +1,14 @@
 {
 	"name": "kit-template-default",
 	"private": true,
+	"homepage": "https://brandontrinh.github.io/btrinh-bio-website/",
+
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "svelte-kit build",
-		"deploy": "npm run build && npx gh-pages -d build",
+		"build": "vite build",
+		"deploy": "npm run build && npx gh-pages -d docs",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
@@ -16,7 +18,7 @@
 		"@fontsource/fira-mono": "^5.0.0",
 		"@neoconfetti/svelte": "^2.0.0",
 		"@sveltejs/adapter-auto": "^6.0.0",
-		"@sveltejs/adapter-static": "^1.0.0-next.50",
+		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"autoprefixer": "^10.4.21",
@@ -30,6 +32,7 @@
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
+		"@tailwindcss/postcss": "^4.1.11",
 		"gsap": "^3.13.0"
 	}
 }
