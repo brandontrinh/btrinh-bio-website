@@ -1,0 +1,35 @@
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-4xl font-bold text-center mb-8">Blog Posts</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-2">Blog Post Title 1</h3>
+      <p class="text-md mb-4">A short summary of the first blog post. This will entice readers to click and read more.</p>
+      <a href="#" class="text-blue-600 hover:underline">Read More</a>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-2">Blog Post Title 2</h3>
+      <p class="text-md mb-4">A short summary of the second blog post. This will entice readers to click and read more.</p>
+      <a href="#" class="text-blue-600 hover:underline">Read More</a>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-2">Blog Post Title 3</h3>
+      <p class="text-md mb-4">A short summary of the third blog post. This will entice readers to click and read more.</p>
+      <a href="#" class="text-blue-600 hover:underline">Read More</a>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-2">Blog Post Title 4</h3>
+      <p class="text-md mb-4">A short summary of the fourth blog post. This will entice readers to click and read more.</p>
+      <a href="#" class="text-blue-600 hover:underline">Read More</a>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-2">Blog Post Title 5</h3>
+      <p class="text-md mb-4">A short summary of the fifth blog post. This will entice readers to click and read more.</p>
+      <a href="#" class="text-blue-600 hover:underline">Read More</a>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-2">Blog Post Title 6</h3>
+      <p class="text-md mb-4">A short summary of the sixth blog post. This will entice readers to click and read more.</p>
+      <a href="#" class="text-blue-600 hover:underline">Read More</a>
+    </div>
+  </div>
+</div>
